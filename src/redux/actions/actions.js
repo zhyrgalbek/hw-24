@@ -1,7 +1,7 @@
 export const addExpense = ({title, price, date})=>{
     return {
         type: "ADD",
-        title: title,
+        title,
         price,
         date: date
     }   
